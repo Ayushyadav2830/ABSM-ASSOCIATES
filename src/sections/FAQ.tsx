@@ -88,10 +88,10 @@ const FAQSection = () => {
   };
 
   return (
-    <section ref={sectionRef} className="section-padding bg-[#F6F7F9]">
+    <section ref={sectionRef} className="section-padding bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div ref={headerRef} className="text-center mb-12 lg:mb-16">
+        <div ref={headerRef} className="text-center mb-8 lg:mb-12">
           <span className="eyebrow block mb-4">FAQ</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
             Common questions

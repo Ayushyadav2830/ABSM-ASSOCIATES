@@ -25,7 +25,7 @@ const Resources = () => {
       </Helmet>
 
       <main className="pt-20">
-        <section className="py-16 lg:py-24 bg-[#F6F7F9]">
+        <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <span className="eyebrow block mb-4">DOWNLOADS CENTER</span>
             <h1 className="text-4xl sm:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">

@@ -128,7 +128,7 @@ const FAQ = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="py-16 lg:py-24 bg-[#F6F7F9]">
+        <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <span className="eyebrow block mb-4">FAQ</span>
@@ -144,7 +144,7 @@ const FAQ = () => {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 lg:py-24 bg-white">
+        <section className="py-12 lg:py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Category Tabs */}
             <div className="flex flex-wrap justify-center gap-3 mb-12">
@@ -202,7 +202,7 @@ const FAQ = () => {
         </section>
 
         {/* Still Have Questions CTA */}
-        <section className="py-16 lg:py-24 bg-[#0B1E3C]">
+        <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <MessageCircle className="w-12 h-12 text-[#2F6BFF] mx-auto mb-6" />
             <h2 className="text-3xl sm:text-4xl font-bold text-white font-['Sora'] mb-4">

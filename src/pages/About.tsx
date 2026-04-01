@@ -52,7 +52,7 @@ const About = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="py-16 lg:py-24 bg-[#F6F7F9]">
+        <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <span className="eyebrow block mb-4">ABOUT US</span>
@@ -69,7 +69,7 @@ const About = () => {
         </section>
 
         {/* Story Section */}
-        <section className="py-16 lg:py-24 bg-white">
+        <section className="py-12 lg:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div>
@@ -116,9 +116,9 @@ const About = () => {
         </section>
 
         {/* Values Section */}
-        <section className="py-16 lg:py-24 bg-[#F6F7F9]">
+        <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center max-w-2xl mx-auto mb-12 lg:mb-16">
+            <div className="text-center max-w-2xl mx-auto mb-8 lg:mb-12">
               <span className="eyebrow block mb-4">OUR VALUES</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
                 What drives us
@@ -148,9 +148,9 @@ const About = () => {
         </section>
 
         {/* Timeline Section */}
-        <section className="py-16 lg:py-24 bg-white">
+        <section className="py-12 lg:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center max-w-2xl mx-auto mb-12 lg:mb-16">
+            <div className="text-center max-w-2xl mx-auto mb-8 lg:mb-12">
               <span className="eyebrow block mb-4">OUR JOURNEY</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
                 Milestones
@@ -181,7 +181,7 @@ const About = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 lg:py-24 bg-[#0B1E3C]">
+        <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-white font-['Sora'] mb-6">
               Ready to work with us?

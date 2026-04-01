@@ -82,7 +82,7 @@ const Services = () => {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="py-16 lg:py-24 bg-[#F6F7F9]">
+        <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <span className="eyebrow block mb-4">OUR SERVICES</span>
@@ -97,7 +97,7 @@ const Services = () => {
         </section>
 
         {/* Services Grid */}
-        <section className="py-16 lg:py-24 bg-white">
+        <section className="py-12 lg:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
               {allServices.map((service, index) => (
@@ -129,7 +129,7 @@ const Services = () => {
         </section>
         
         {/* CTA Section */}
-        <section className="py-16 lg:py-24 bg-[#0B1E3C]">
+        <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-white font-['Sora'] mb-6">
               Not sure which service you need?

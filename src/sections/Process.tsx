@@ -104,7 +104,7 @@ const Process = () => {
     <section ref={sectionRef} className="section-padding bg-[#F6F7F9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div ref={headerRef} className="text-center max-w-2xl mx-auto mb-12 lg:mb-16">
+        <div ref={headerRef} className="text-center max-w-2xl mx-auto mb-8 lg:mb-12">
           <span className="eyebrow block mb-4">OUR PROCESS</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
             How we work

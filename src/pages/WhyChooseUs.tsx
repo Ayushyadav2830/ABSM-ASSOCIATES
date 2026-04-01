@@ -79,7 +79,7 @@ const WhyChooseUsPage = () => {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="py-16 lg:py-24 bg-[#F6F7F9]">
+        <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <span className="eyebrow block mb-4">WHY CHOOSE US</span>
@@ -95,7 +95,7 @@ const WhyChooseUsPage = () => {
         </section>
 
         {/* Differentiators Grid */}
-        <section className="py-16 lg:py-24 bg-white">
+        <section className="py-12 lg:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {differentiators.map((item, index) => (
@@ -117,7 +117,7 @@ const WhyChooseUsPage = () => {
         </section>
 
         {/* Comparison Section */}
-        <section className="py-16 lg:py-24 bg-[#F6F7F9]">
+        <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <span className="eyebrow block mb-4">COMPARISON</span>
@@ -157,7 +157,7 @@ const WhyChooseUsPage = () => {
         </section>
 
         {/* Testimonial Highlight */}
-        <section className="py-16 lg:py-24 bg-white">
+        <section className="py-12 lg:py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <MessageSquare className="w-12 h-12 text-[#2F6BFF] mx-auto mb-6" />
             <blockquote className="text-2xl sm:text-3xl font-medium text-[#0B1E3C] font-['Sora'] mb-8">
@@ -172,7 +172,7 @@ const WhyChooseUsPage = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 lg:py-24 bg-[#0B1E3C]">
+        <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-white font-['Sora'] mb-6">
               Experience the difference

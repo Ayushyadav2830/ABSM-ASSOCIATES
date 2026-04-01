@@ -72,7 +72,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="section-padding bg-[#F6F7F9]">
+    <section ref={sectionRef} className="section-padding bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Image */}

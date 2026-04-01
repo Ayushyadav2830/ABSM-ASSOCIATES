@@ -28,7 +28,7 @@ const CorporateTax = () => {
       </Helmet>
 
       <main className="pt-20">
-        <section className="py-16 lg:py-24 bg-[#F6F7F9]">
+        <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <span className="eyebrow block mb-4">CORPORATE SERVICES</span>
@@ -47,7 +47,7 @@ const CorporateTax = () => {
           </div>
         </section>
 
-        <section className="py-16 lg:py-24 bg-white">
+        <section className="py-12 lg:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-[#0B1E3C] font-['Sora'] mb-8 text-center">Corporate Tax Services</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -61,7 +61,7 @@ const CorporateTax = () => {
           </div>
         </section>
 
-        <section className="py-16 lg:py-24 bg-[#0B1E3C]">
+        <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-white font-['Sora'] mb-6">Optimize your corporate tax</h2>
             <p className="text-white/70 mb-8">Get in touch for customized corporate tax solutions.</p>
