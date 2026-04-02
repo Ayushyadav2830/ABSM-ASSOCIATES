@@ -44,11 +44,11 @@ const Career = () => {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <span className="eyebrow block mb-4">JOIN OUR TEAM</span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
-              Build your career with us
+              Accelerate Your Professional Growth
             </h1>
             <p className="text-xl text-[#5A6A7A] leading-relaxed mb-8">
-              We are constantly looking for talented professionals and ambitious learners 
-              to join our expanding practice in Chandigarh. 
+              Join a team defined by technical excellence and strategic advisory. 
+              We are expanding our practice and seeking exceptional talent to join our Chandigarh headquarters.
             </p>
           </div>
         </section>
@@ -88,13 +88,13 @@ const Career = () => {
             </div>
             
             <div className="mt-16 bg-[#0B1E3C] rounded-3xl p-8 lg:p-12 text-center text-white">
-               <h3 className="text-2xl lg:text-3xl font-bold font-['Sora'] mb-4">Don't see a fit?</h3>
+               <h3 className="text-2xl lg:text-3xl font-bold font-['Sora'] mb-4">General Inquiry</h3>
                <p className="text-white/80 mb-6 max-w-2xl mx-auto">
                  Send us your resume anyway. We are always on the lookout for bright minds.
                </p>
                <a href="mailto:info@absmassociates.com" className="inline-flex items-center space-x-2 bg-[#2F6BFF] hover:bg-[#2558d9] px-6 py-3 rounded-lg font-medium transition-colors">
                   <Briefcase className="w-5 h-5" />
-                  <span>Submit Resume</span>
+                  <span>Submit Credentials</span>
                </a>
             </div>
           </div>
