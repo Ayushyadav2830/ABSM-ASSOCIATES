@@ -159,7 +159,7 @@ const Services = () => {
                 <Link
                   key={index}
                   to={service.link}
-                  className="bg-[#F6F7F9] rounded-[28px] p-8 card-shadow flex flex-col h-full"
+                  className="bg-[#F6F7F9] hover:bg-[#F6F7F9] rounded-[28px] p-8 card-shadow flex flex-col h-full transition-none"
                 >
                   <div className="w-14 h-14 bg-[#0B1E3C] rounded-2xl flex items-center justify-center mb-6">
                     <service.icon className="w-7 h-7 text-white" />
@@ -169,7 +169,7 @@ const Services = () => {
                     {service.title}
                   </h2>
                   
-                  <p className="text-[#5A6A7A] mb-8 flex-grow">
+                  <p className="text-[#5A6A7A] hover:text-[#5A6A7A] bg-transparent hover:bg-transparent mb-8 flex-grow">
                     {service.description}
                   </p>
                   
