@@ -34,9 +34,9 @@ const Blog = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="max-w-2xl mb-8 lg:mb-12">
-          <span className="eyebrow block mb-4">KNOWLEDGE CENTER</span>
+          <span className="eyebrow block mb-4">INSIGHTS</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-            Insights & Resources
+            Latest insights
           </h2>
           <p className="text-lg text-[#5A6A7A]">
             Practical updates on tax, compliance, and business finance.

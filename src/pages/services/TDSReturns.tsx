@@ -40,10 +40,10 @@ const TDSReturns = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact" className="flex items-center justify-center space-x-2 btn-primary">
                   <Calendar className="w-5 h-5" />
-                  <span>Schedule Your Consultation</span>
+                  <span>Request Consultation</span>
                 </Link>
                 <a href="tel:+919781064214" className="flex items-center justify-center space-x-2 btn-secondary">
-                  <span>Speak with an Expert</span>
+                  <span>Consult an Expert</span>
                 </a>
               </div>
             </div>

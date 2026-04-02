@@ -140,7 +140,7 @@ const Services = () => {
         <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
-              <span className="eyebrow block mb-4">ADVISORY SERVICES</span>
+              <span className="eyebrow block mb-4">OUR SERVICES</span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
                 Comprehensive financial solutions
               </h1>
@@ -159,7 +159,7 @@ const Services = () => {
                 <Link
                   key={index}
                   to={service.link}
-                  className="bg-[#F6F7F9] hover:bg-[#F6F7F9] rounded-[28px] p-8 card-shadow flex flex-col h-full transition-none"
+                  className="bg-[#F6F7F9] rounded-[28px] p-8 card-shadow flex flex-col h-full"
                 >
                   <div className="w-14 h-14 bg-[#0B1E3C] rounded-2xl flex items-center justify-center mb-6">
                     <service.icon className="w-7 h-7 text-white" />
@@ -169,7 +169,7 @@ const Services = () => {
                     {service.title}
                   </h2>
                   
-                  <p className="text-[#5A6A7A] hover:text-[#5A6A7A] bg-transparent hover:bg-transparent mb-8 flex-grow">
+                  <p className="text-[#5A6A7A] mb-8 flex-grow">
                     {service.description}
                   </p>
                   

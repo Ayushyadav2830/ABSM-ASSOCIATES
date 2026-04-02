@@ -37,9 +37,9 @@ const Industries = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="max-w-2xl mb-8 lg:mb-12">
-          <span className="eyebrow block mb-4">WHO WE SERVE</span>
+          <span className="eyebrow block mb-4">INDUSTRIES WE SERVE</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-            Industry Expertise
+            Sector expertise
           </h2>
           <p className="text-lg text-[#5A6A7A]">
             We understand the regulations, risks, and reporting standards that matter in your industry.

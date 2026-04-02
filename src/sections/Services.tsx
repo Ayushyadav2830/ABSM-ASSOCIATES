@@ -37,9 +37,9 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="max-w-2xl mb-8 lg:mb-12">
-          <span className="eyebrow block mb-4">ADVISORY SERVICES</span>
+          <span className="eyebrow block mb-4">Core Competencies</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-            Our Solutions
+            Specialized Financial Services
           </h2>
           <p className="text-lg text-[#5A6A7A]">
             We provide a sophisticated suite of tax, audit, and advisory services tailored to meet the complex requirements of modern businesses and high-net-worth individuals.
@@ -63,7 +63,7 @@ const Services = () => {
               <h3 className="text-xl font-bold text-[#0B1E3C] font-['Sora'] mb-3">
                 {service.title}
               </h3>
-              <p className="text-[#5A6A7A] hover:bg-transparent mb-6 leading-relaxed">
+              <p className="text-[#5A6A7A] mb-6 leading-relaxed">
                 {service.description}
               </p>
 
