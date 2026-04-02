@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Award, Users, Target, Shield, Calendar, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Partners from '../sections/Partners';
 
 const About = () => {
   useEffect(() => {
@@ -179,6 +180,8 @@ const About = () => {
             </div>
           </div>
         </section>
+
+        <Partners />
 
         {/* CTA Section */}
         <section className="py-12 lg:py-16 bg-[#0B1E3C]">

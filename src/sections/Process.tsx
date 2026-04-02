@@ -1,14 +1,6 @@
-import { useEffect, useRef } from 'react';
 import { Search, FileCheck, HeadphonesIcon } from 'lucide-react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
 
 const Process = () => {
-  const sectionRef = useRef<HTMLElement>(null);
-  const headerRef = useRef<HTMLDivElement>(null);
-  const cardsRef = useRef<HTMLDivElement>(null);
 
   const steps = [
     {
@@ -34,77 +26,13 @@ const Process = () => {
     },
   ];
 
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      // Header animation
-      gsap.fromTo(
-        headerRef.current,
-        { opacity: 0, y: 24 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.7,
-          ease: 'power2.out',
-          scrollTrigger: {
-            trigger: headerRef.current,
-            start: 'top 80%',
-            toggleActions: 'play none none reverse',
-          },
-        }
-      );
-
-      // Cards animation
-      const cards = cardsRef.current?.querySelectorAll('.process-card');
-      if (cards) {
-        gsap.fromTo(
-          cards,
-          { opacity: 0, y: 40, scale: 0.98 },
-          {
-            opacity: 1,
-            y: 0,
-            scale: 1,
-            duration: 0.7,
-            stagger: 0.12,
-            ease: 'power2.out',
-            scrollTrigger: {
-              trigger: cardsRef.current,
-              start: 'top 75%',
-              toggleActions: 'play none none reverse',
-            },
-          }
-        );
-      }
-
-      // Tags animation
-      const tags = cardsRef.current?.querySelectorAll('.tag-item');
-      if (tags) {
-        gsap.fromTo(
-          tags,
-          { opacity: 0, y: 10 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.4,
-            stagger: 0.06,
-            ease: 'power2.out',
-            scrollTrigger: {
-              trigger: tags[0],
-              start: 'top 90%',
-              toggleActions: 'play none none reverse',
-            },
-          }
-        );
-      }
-    }, sectionRef);
-
-    return () => ctx.revert();
-  }, []);
+  // Removed animations for static website
 
   return (
-    <section ref={sectionRef} className="section-padding bg-[#F6F7F9]">
+    <section className="section-padding bg-[#F6F7F9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div ref={headerRef} className="text-center max-w-2xl mx-auto mb-8 lg:mb-12">
+        <div className="text-center max-w-2xl mx-auto mb-8 lg:mb-12">
           <span className="eyebrow block mb-4">OUR PROCESS</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
             How we work
@@ -115,7 +43,7 @@ const Process = () => {
         </div>
 
         {/* Process Cards */}
-        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {steps.map((step, index) => (
             <div
               key={index}

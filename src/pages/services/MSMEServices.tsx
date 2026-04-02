@@ -1,43 +1,42 @@
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ClipboardCheck, CheckCircle2, ShieldCheck, Calendar } from 'lucide-react';
+import { Layers, CheckCircle2, ShieldCheck, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const AuditAssurance = () => {
+const MSMEServices = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const scope = [
-    'Statutory Audit: Independent validation of financial statements as mandated by the Companies Act, 2013.',
-    'Internal Audit: Strategic evaluation of internal controls and risk management frameworks.',
-    'Tax Audit: Specialized auditing services as required under Section 44AB of the Income Tax Act.',
-    'Concurrent Audit: Ongoing monitoring and validation of financial transactions for institutional clients.',
-    'Risk Management: Technical advisory on identifying and mitigating operational and financial risks.',
-    'Stock Audit: Physical verification and valuation of inventory and biological assets.'
+    'MSME Registration: Specialized support for Udyam registration and statutory compliance for small/medium enterprises.',
+    'Invoice Discounting: Strategic advisory and facilitation of optimized invoice discounting to enhance working capital.',
+    'Finance Recovery Support: Professional services for structured recovery of outstanding business receivables.',
+    'Government Schemes: Navigating state and central government incentives tailored for the MSME sector.',
+    'Strategic Growth Advisory: Dedicated consulting to scale MSME operations efficiently within the regulatory landscape.',
+    'ZED & ISO Certification: Facilitation of quality standard certifications to enhance business competitiveness.'
   ];
 
   return (
     <>
       <Helmet>
-        <title>Audit & Assurance Services | ABSM & ASSOCIATES - Chartered Accountants</title>
+        <title>MSME Services & Support | ABSM & ASSOCIATES</title>
         <meta
           name="description"
-          content="Professional audit and assurance in Chandigarh. Statutory, internal, and risk-based audits ensuring fiscal transparency by ABSM & ASSOCIATES."
+          content="Facilitating MSME registration, specialized invoice discounting, and structured financial recovery support for enterprises by ABSM & ASSOCIATES."
         />
-        <link rel="canonical" href="https://absmassociates.com/services/audit-assurance" />
       </Helmet>
 
       <main className="pt-20">
         <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
-              <span className="eyebrow block mb-4">AUDIT SOLUTIONS</span>
+              <span className="eyebrow block mb-4">MSME SOLUTIONS</span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
-                Institutionalizing fiscal transparency and control
+                Strategic support for MSME growth and recovery
               </h1>
               <p className="text-xl text-[#5A6A7A] leading-relaxed">
-                We provide institutions and corporate entities with a robust framework for financial validation. Our experts ensure every audit engagement is performed with technical precision and independence.
+                We provide specialized support for MSME registration and structured financial recovery. Our experts work with small and medium enterprises to enhance their working capital and scale their business.
               </p>
             </div>
           </div>
@@ -69,17 +68,17 @@ const AuditAssurance = () => {
                         <ShieldCheck className="w-6 h-6 text-[#2F6BFF]" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-[#0B1E3C] mb-1">Risk-Based Methodology</h4>
-                        <p className="text-sm text-[#5A6A7A]">A resolute focus on identifying high-risk areas to ensure thorough validation and compliance.</p>
+                        <h4 className="font-bold text-[#0B1E3C] mb-1">MSME Growth Mapping</h4>
+                        <p className="text-sm text-[#5A6A7A]">Strategic mapping of growth opportunities within the MSME framework.</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">
                       <div className="p-3 bg-white rounded-xl shadow-sm">
-                        <ClipboardCheck className="w-6 h-6 text-[#2F6BFF]" />
+                        <Layers className="w-6 h-6 text-[#2F6BFF]" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-[#0B1E3C] mb-1">Factual Accuracy</h4>
-                        <p className="text-sm text-[#5A6A7A]">Technical precision to ensure every audit report is factually accurate and legally defensible.</p>
+                        <h4 className="font-bold text-[#0B1E3C] mb-1">Operational Scalability</h4>
+                        <p className="text-sm text-[#5A6A7A]">Dedicated consulting for operational efficiency and business scaling.</p>
                       </div>
                     </div>
                   </div>
@@ -87,14 +86,14 @@ const AuditAssurance = () => {
 
                 <div className="bg-[#0B1E3C] rounded-[28px] p-8 lg:p-10 text-white relative overflow-hidden">
                   <div className="relative z-10">
-                    <h3 className="text-2xl font-bold font-['Sora'] mb-4">Discuss your audit requirements</h3>
-                    <p className="text-white/70 mb-8">Schedule a professional consultation with our audit specialists for a structured walkthrough of your mandate.</p>
+                    <h3 className="text-2xl font-bold font-['Sora'] mb-4">Discuss your MSME requirements</h3>
+                    <p className="text-white/70 mb-8">Schedule a professional consultation with our MSME experts to finalize your business strategies.</p>
                     <Link
                       to="/contact"
                       className="inline-flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl font-medium hover:bg-[#2558d9] transition-colors"
                     >
                       <Calendar className="w-5 h-5" />
-                      <span>Book Consultation</span>
+                      <span>Request Consultation</span>
                     </Link>
                   </div>
                 </div>
@@ -107,4 +106,4 @@ const AuditAssurance = () => {
   );
 };
 
-export default AuditAssurance;
+export default MSMEServices;

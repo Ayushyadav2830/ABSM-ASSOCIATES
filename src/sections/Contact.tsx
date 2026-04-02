@@ -1,14 +1,7 @@
-import { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
 
 const ContactSection = () => {
-  const sectionRef = useRef<HTMLElement>(null);
-  const infoRef = useRef<HTMLDivElement>(null);
-  const formRef = useRef<HTMLDivElement>(null);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -48,67 +41,7 @@ const ContactSection = () => {
     },
   ];
 
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      // Info animation
-      gsap.fromTo(
-        infoRef.current,
-        { opacity: 0, x: '-4vw' },
-        {
-          opacity: 1,
-          x: 0,
-          duration: 0.8,
-          ease: 'power2.out',
-          scrollTrigger: {
-            trigger: infoRef.current,
-            start: 'top 75%',
-            toggleActions: 'play none none reverse',
-          },
-        }
-      );
-
-      // Form animation
-      gsap.fromTo(
-        formRef.current,
-        { opacity: 0, x: '4vw', scale: 0.98 },
-        {
-          opacity: 1,
-          x: 0,
-          scale: 1,
-          duration: 0.8,
-          ease: 'power2.out',
-          scrollTrigger: {
-            trigger: formRef.current,
-            start: 'top 75%',
-            toggleActions: 'play none none reverse',
-          },
-        }
-      );
-
-      // Form fields animation
-      const fields = formRef.current?.querySelectorAll('.form-field');
-      if (fields) {
-        gsap.fromTo(
-          fields,
-          { opacity: 0, y: 12 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.4,
-            stagger: 0.06,
-            ease: 'power2.out',
-            scrollTrigger: {
-              trigger: fields[0],
-              start: 'top 90%',
-              toggleActions: 'play none none reverse',
-            },
-          }
-        );
-      }
-    }, sectionRef);
-
-    return () => ctx.revert();
-  }, []);
+  // Removed animations for static website
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -136,11 +69,11 @@ const ContactSection = () => {
   };
 
   return (
-    <section ref={sectionRef} className="section-padding bg-[#F6F7F9]">
+    <section className="section-padding bg-[#F6F7F9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           {/* Contact Info */}
-          <div ref={infoRef}>
+          <div>
             <span className="eyebrow block mb-4">CONTACT US</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
               Get in touch
@@ -156,12 +89,12 @@ const ContactSection = () => {
                   href={item.href}
                   className="flex items-start space-x-4 group"
                 >
-                  <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center card-shadow group-hover:card-shadow-hover transition-shadow">
+                  <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center card-shadow">
                     <item.icon className="w-5 h-5 text-[#2F6BFF]" />
                   </div>
                   <div>
                     <p className="text-sm text-[#5A6A7A] mb-1">{item.label}</p>
-                    <p className="font-medium text-[#0B1E3C] group-hover:text-[#2F6BFF] transition-colors">
+                    <p className="font-medium text-[#0B1E3C]">
                       {item.value}
                     </p>
                   </div>
@@ -172,7 +105,6 @@ const ContactSection = () => {
 
           {/* Contact Form */}
           <div
-            ref={formRef}
             className="bg-white rounded-[28px] p-6 lg:p-8 card-shadow"
           >
             {submitted ? (

@@ -2,13 +2,21 @@ import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { 
-  FileText, 
-  Calculator, 
   ClipboardCheck, 
-  Globe2, 
-  Building,
-  Receipt,
-  Users,
+  Calculator, 
+  Shield, 
+  Gavel, 
+  Layers, 
+  GitMerge, 
+  Rocket, 
+  CheckSquare, 
+  PieChart, 
+  TrendingUp, 
+  Briefcase, 
+  Coins, 
+  Percent, 
+  BarChart3, 
+  Building2,
   ArrowRight 
 } from 'lucide-react';
 
@@ -19,54 +27,96 @@ const Services = () => {
 
   const allServices = [
     {
-      icon: FileText,
-      title: 'GST Registration & Filing',
-      description: 'Comprehensive GST solutions including registration, monthly returns, reconciliation, and audit support.',
-      link: '/services/gst-registration',
-      delay: '0'
+      icon: ClipboardCheck,
+      title: 'Audit & Assurance',
+      description: 'Independent validation of financial records including statutory, internal, and risk-based audits to ensure regulatory adherence and fiscal transparency.',
+      link: '/services/audit-assurance',
     },
     {
       icon: Calculator,
-      title: 'Income Tax Planning',
-      description: 'Strategic tax planning and return filing for individuals, HNIs, and corporate entities.',
-      link: '/services/income-tax',
-      delay: '100'
+      title: 'Taxation Advisory',
+      description: 'Comprehensive tax management encompassing strategic planning, GST compliance, transfer pricing, and handling of scrutiny/assessment procedures.',
+      link: '/services/taxation',
     },
     {
-      icon: ClipboardCheck,
-      title: 'Audit & Assurance',
-      description: 'Independent reviews and statutory audits that strengthen stakeholder confidence and compliance.',
-      link: '/services/audit-assurance',
-      delay: '200'
+      icon: Shield,
+      title: 'Insolvency (IBC 2016)',
+      description: 'Authorized representation and drafting of resolution plans under the Insolvency and Bankruptcy Code (IBC) for structured debt resolution.',
+      link: '/services/insolvency-ibc',
     },
     {
-      icon: Globe2,
-      title: 'NRI Taxation',
-      description: 'Expert advisory on FEMA compliance, repatriation, and tax optimization for Non-Resident Indians.',
-      link: '/services/nri-taxation',
-      delay: '100'
+      icon: Gavel,
+      title: 'Legal Advisory',
+      description: 'Technical support for financial litigation, arbitration, and drafting of specialized business agreements to mitigate corporate risk.',
+      link: '/services/legal-advisory',
     },
     {
-      icon: Building,
-      title: 'Company Registration',
-      description: 'End-to-end incorporation services for Private Limited, LLP, OPC, and Startup India registration.',
-      link: '/services/company-registration',
-      delay: '200'
+      icon: Layers,
+      title: 'MSME Solutions',
+      description: 'Facilitating MSME registration, specialized invoice discounting, and structured financial recovery support for small and medium enterprises.',
+      link: '/services/msme-services',
     },
     {
-      icon: Receipt,
-      title: 'TDS Returns',
-      description: 'Quarterly TDS return filing, corrections, certificate generation, and compliance management.',
-      link: '/services/tds-returns',
-      delay: '100'
+      icon: GitMerge,
+      title: 'Succession Planning',
+      description: 'Preserving multi-generational wealth through the precise drafting of wills, trusts, and business succession frameworks.',
+      link: '/services/succession-planning',
     },
     {
-      icon: Users,
-      title: 'PF & ESIC Compliance',
-      description: 'Monthly payroll compliance, EPF/ESIC registrations, chalans, and return filings.',
-      link: '/services/pf-esic-compliance',
-      delay: '200'
+      icon: Rocket,
+      title: 'Startup Advisory',
+      description: 'Incubation support, growth modeling, and risk advisory designed to navigate the regulatory lifecycle of new ventures.',
+      link: '/services/startup-advisory',
+    },
+    {
+      icon: CheckSquare,
+      title: 'Regulatory Compliance',
+      description: 'Ensuring adherence to SEBI mandates, FEMA-FDI/ODI regulations, ROC filings, and state-specific RERA requirements.',
+      link: '/services/regulatory-compliance',
+    },
+    {
+      icon: PieChart,
+      title: 'Valuation Services',
+      description: 'Certified valuation of business entities, equity shares, intangible assets (IPR), and immovable properties for statutory purposes.',
+      link: '/services/valuation',
+    },
+    {
+      icon: TrendingUp,
+      title: 'Fund Raising',
+      description: 'Structuring debt and equity capital through private placements, term loans, and optimized working capital facilities.',
+      link: '/services/fund-raising',
+    },
+    {
+      icon: Briefcase,
+      title: 'Merger & Acquisition',
+      description: 'Strategic advisory for hive-offs, joint ventures, and business combinations aimed at long-term inorganic growth.',
+      link: '/services/merger-acquisition',
+    },
+    {
+      icon: Coins,
+      title: 'Capital Advisory',
+      description: 'Optimizing capital structures through equity finance, debt instruments, and alternative financing route evaluations.',
+      link: '/services/capital-advisory',
+    },
+    {
+      icon: Percent,
+      title: 'Subsidies & Grants',
+      description: 'Navigating state and central government incentives including RIPS, PMFME schemes, and other industrial clusters.',
+      link: '/services/subsidies',
+    },
+    {
+      icon: BarChart3,
+      title: 'Investment Advisory',
+      description: 'Bespoke wealth management through Private Equity, Alternative Investment Funds (AIF), and family office structures.',
+      link: '/services/investment-advisory',
+    },
+    {
+      icon: Building2,
+      title: 'Business Incorporation',
+      description: 'Formal setup of Pvt Ltd, LLP, OPC, and specialized NBFC structures including all necessary regulatory registrations.',
+      link: '/services/business-incorporation',
     }
+
   ];
 
   return (

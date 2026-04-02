@@ -34,7 +34,7 @@ const Navigation = () => {
   return (
     <>
       <nav
-        className={`sticky top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`sticky top-0 left-0 right-0 z-50 ${
           isScrolled
             ? 'bg-white/95 backdrop-blur-md shadow-lg'
             : 'bg-white/80 backdrop-blur-md border-b border-gray-100'
@@ -44,7 +44,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-4 group">
-              <div className="w-12 h-12 lg:w-14 lg:h-14 relative overflow-hidden flex-shrink-0 transition-transform group-hover:scale-105 border border-[#0B1E3C]/5 rounded-lg">
+              <div className="w-12 h-12 lg:w-14 lg:h-14 relative overflow-hidden flex-shrink-0 border border-[#0B1E3C]/5 rounded-lg">
                 <img 
                   src="/images/ca-logo.jpg" 
                   alt="CA Logo" 
@@ -121,8 +121,8 @@ const Navigation = () => {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed inset-0 z-40 lg:hidden transition-all duration-300 ${
-          isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        className={`fixed inset-0 z-40 lg:hidden ${
+          isMobileMenuOpen ? 'block' : 'hidden'
         }`}
       >
         <div
@@ -130,7 +130,7 @@ const Navigation = () => {
           onClick={() => setIsMobileMenuOpen(false)}
         />
         <div
-          className={`absolute top-16 left-0 right-0 bg-white shadow-xl transition-transform duration-300 ${
+          className={`absolute top-16 left-0 right-0 bg-white shadow-xl ${
             isMobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
           }`}
         >

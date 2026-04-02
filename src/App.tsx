@@ -22,9 +22,25 @@ import Resources from './pages/Resources';
 
 // Service Pages
 import Services from './pages/Services';
+import AuditAssurance from './pages/services/AuditAssurance';
+import Taxation from './pages/services/Taxation';
+import Insolvency from './pages/services/Insolvency';
+import LegalAdvisory from './pages/services/LegalAdvisory';
+import MSMEServices from './pages/services/MSMEServices';
+import SuccessionPlanning from './pages/services/SuccessionPlanning';
+import StartupAdvisory from './pages/services/StartupAdvisory';
+import RegulatoryCompliance from './pages/services/RegulatoryCompliance';
+import Valuation from './pages/services/Valuation';
+import FundRaising from './pages/services/FundRaising';
+import MergerAcquisition from './pages/services/MergerAcquisition';
+import CapitalAdvisory from './pages/services/CapitalAdvisory';
+import Subsidies from './pages/services/Subsidies';
+import InvestmentAdvisory from './pages/services/InvestmentAdvisory';
+import BusinessIncorporation from './pages/services/BusinessIncorporation';
+
+// Legacy/Internal Service Pages
 import GSTRegistration from './pages/services/GSTRegistration';
 import IncomeTax from './pages/services/IncomeTax';
-import AuditAssurance from './pages/services/AuditAssurance';
 import CorporateTax from './pages/services/CorporateTax';
 import Accounting from './pages/services/Accounting';
 import NRITaxation from './pages/services/NRITaxation';
@@ -129,9 +145,25 @@ function App() {
                 
                 {/* Service Pages */}
                 <Route path="/services" element={<Services />} />
+                <Route path="/services/audit-assurance" element={<AuditAssurance />} />
+                <Route path="/services/taxation" element={<Taxation />} />
+                <Route path="/services/insolvency-ibc" element={<Insolvency />} />
+                <Route path="/services/legal-advisory" element={<LegalAdvisory />} />
+                <Route path="/services/msme-services" element={<MSMEServices />} />
+                <Route path="/services/succession-planning" element={<SuccessionPlanning />} />
+                <Route path="/services/startup-advisory" element={<StartupAdvisory />} />
+                <Route path="/services/regulatory-compliance" element={<RegulatoryCompliance />} />
+                <Route path="/services/valuation" element={<Valuation />} />
+                <Route path="/services/fund-raising" element={<FundRaising />} />
+                <Route path="/services/merger-acquisition" element={<MergerAcquisition />} />
+                <Route path="/services/capital-advisory" element={<CapitalAdvisory />} />
+                <Route path="/services/subsidies" element={<Subsidies />} />
+                <Route path="/services/investment-advisory" element={<InvestmentAdvisory />} />
+                <Route path="/services/business-incorporation" element={<BusinessIncorporation />} />
+                
+                {/* Specific Compliance Routes */}
                 <Route path="/services/gst-registration" element={<GSTRegistration />} />
                 <Route path="/services/income-tax" element={<IncomeTax />} />
-                <Route path="/services/audit-assurance" element={<AuditAssurance />} />
                 <Route path="/services/corporate-taxation" element={<CorporateTax />} />
                 <Route path="/services/accounting" element={<Accounting />} />
                 <Route path="/services/nri-taxation" element={<NRITaxation />} />
