@@ -52,10 +52,10 @@ const Services = () => {
             <Link
               key={index}
               to={service.link}
-              className="service-card group bg-white rounded-[28px] p-6 lg:p-8 card-shadow"
+              className="service-card bg-white rounded-[28px] p-6 lg:p-8 card-shadow"
             >
               {/* Icon */}
-              <div className="w-14 h-14 bg-[#0B1E3C] rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#2F6BFF] transition-colors duration-300">
+              <div className="w-14 h-14 bg-[#0B1E3C] rounded-2xl flex items-center justify-center mb-6">
                 <service.icon className="w-7 h-7 text-white" />
               </div>
 

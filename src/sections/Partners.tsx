@@ -43,7 +43,7 @@ const Partners = () => {
           {partners.map((partner, index) => (
             <div
               key={index}
-              className="group relative bg-white rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-100/50"
+              className="relative bg-white rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-100/50"
             >
               {/* Colored Top Bar */}
               <div className={`h-32 ${partner.color} relative overflow-hidden`}>
@@ -95,13 +95,13 @@ const Partners = () => {
                 <div className="flex items-center justify-center space-x-4">
                   <a
                     href={partner.linkedin}
-                    className="w-10 h-10 rounded-full bg-[#0B1E3C] flex items-center justify-center text-white hover:bg-[#2F6BFF] transition-colors duration-300"
+                    className="w-10 h-10 rounded-full bg-[#0B1E3C] flex items-center justify-center text-white"
                   >
                     <Linkedin className="w-4 h-4" />
                   </a>
                   <a
                     href={partner.email}
-                    className="w-10 h-10 rounded-full bg-[#0B1E3C] flex items-center justify-center text-white hover:bg-[#2F6BFF] transition-colors duration-300"
+                    className="w-10 h-10 rounded-full bg-[#0B1E3C] flex items-center justify-center text-white"
                   >
                     <Mail className="w-4 h-4" />
                   </a>

@@ -52,7 +52,7 @@ const Industries = () => {
             <Link
               key={index}
               to={industry.link}
-              className="industry-card group bg-white rounded-[28px] overflow-hidden card-shadow"
+              className="industry-card bg-white rounded-[28px] overflow-hidden card-shadow"
             >
               {/* Image */}
               <div className="relative h-48 overflow-hidden">

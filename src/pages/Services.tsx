@@ -115,8 +115,13 @@ const Services = () => {
       title: 'Business Incorporation',
       description: 'Formal setup of Pvt Ltd, LLP, OPC, and specialized NBFC structures including all necessary regulatory registrations.',
       link: '/services/business-incorporation',
+    },
+    {
+      icon: Rocket,
+      title: 'Business Startup',
+      description: 'End-to-end support for new business ventures including statutory registrations, MSME, and ISO certifications.',
+      link: '/services/business-startup',
     }
-
   ];
 
   return (
@@ -154,9 +159,9 @@ const Services = () => {
                 <Link
                   key={index}
                   to={service.link}
-                  className="group bg-[#F6F7F9] rounded-[28px] p-8 card-shadow hover:card-shadow-hover transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
+                  className="bg-[#F6F7F9] rounded-[28px] p-8 card-shadow flex flex-col h-full"
                 >
-                  <div className="w-14 h-14 bg-[#0B1E3C] rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#2F6BFF] transition-colors duration-300">
+                  <div className="w-14 h-14 bg-[#0B1E3C] rounded-2xl flex items-center justify-center mb-6">
                     <service.icon className="w-7 h-7 text-white" />
                   </div>
                   
@@ -168,15 +173,16 @@ const Services = () => {
                     {service.description}
                   </p>
                   
-                  <div className="flex items-center space-x-2 text-[#2F6BFF] font-medium mt-auto group-hover:underline">
+                  <div className="flex items-center space-x-2 text-[#2F6BFF] font-medium mt-auto">
                     <span>Learn more</span>
-                    <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight className="w-4 h-4" />
                   </div>
                 </Link>
               ))}
             </div>
           </div>
         </section>
+
         
         {/* CTA Section */}
         <section className="py-12 lg:py-16 bg-[#0B1E3C]">

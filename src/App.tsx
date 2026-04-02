@@ -37,6 +37,7 @@ import CapitalAdvisory from './pages/services/CapitalAdvisory';
 import Subsidies from './pages/services/Subsidies';
 import InvestmentAdvisory from './pages/services/InvestmentAdvisory';
 import BusinessIncorporation from './pages/services/BusinessIncorporation';
+import BusinessStartup from './pages/services/BusinessStartup';
 
 // Legacy/Internal Service Pages
 import GSTRegistration from './pages/services/GSTRegistration';
@@ -160,6 +161,7 @@ function App() {
                 <Route path="/services/subsidies" element={<Subsidies />} />
                 <Route path="/services/investment-advisory" element={<InvestmentAdvisory />} />
                 <Route path="/services/business-incorporation" element={<BusinessIncorporation />} />
+                <Route path="/services/business-startup" element={<BusinessStartup />} />
                 
                 {/* Specific Compliance Routes */}
                 <Route path="/services/gst-registration" element={<GSTRegistration />} />
