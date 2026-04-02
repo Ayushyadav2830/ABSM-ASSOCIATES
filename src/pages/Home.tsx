@@ -23,7 +23,7 @@ const Home = () => {
         <title>ABSM & ASSOCIATES | Chartered Accountant Firm in Chandigarh</title>
         <meta
           name="description"
-          content="Professional Chartered Accountant Firm in Chandigarh. GST Registration, Income Tax Filing, Audit & Assurance Services. 10+ years of experience. Request Consultation."
+          content="Professional Chartered Accountant Firm in Chandigarh. GST Registration, Income Tax Filing, Audit & Assurance Services. 10+ years of experience. Schedule Your Consultation."
         />
         <meta
           name="keywords"

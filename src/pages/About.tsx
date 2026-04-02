@@ -56,7 +56,7 @@ const About = () => {
         <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
-              <span className="eyebrow block mb-4">ABOUT US</span>
+              <span className="eyebrow block mb-4">ABOUT THE FIRM</span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
                 Professional Expertise. Strategic Growth.
               </h1>
@@ -198,7 +198,7 @@ const About = () => {
                 className="flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl font-medium hover:bg-[#2558d9] transition-colors"
               >
                 <Calendar className="w-5 h-5" />
-                <span>Request Consultation</span>
+                <span>Schedule Your Consultation</span>
               </Link>
               <Link
                 to="/services/income-tax"

@@ -83,7 +83,7 @@ const Hero = () => {
                 className="flex items-center justify-center space-x-2 btn-primary"
               >
                 <Calendar className="w-5 h-5" />
-                <span>Schedule Consultation</span>
+                <span>Schedule Your Consultation</span>
               </Link>
               <a
                 href="tel:+919781064214"

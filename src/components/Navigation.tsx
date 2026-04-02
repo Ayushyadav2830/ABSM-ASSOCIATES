@@ -17,11 +17,11 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Services', href: '/services' },
-    { name: 'Industries', href: '/#industries' },
-    { name: 'About', href: '/about' },
-    { name: 'Insights', href: '/blog' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Advisory Services', href: '/services' },
+    { name: 'Industry Expertise', href: '/#industries' },
+    { name: 'About the Firm', href: '/about' },
+    { name: 'Insights & Resources', href: '/blog' },
+    { name: 'Get in Touch', href: '/contact' },
   ];
 
   const isActive = (path: string) => {
@@ -93,14 +93,14 @@ const Navigation = () => {
                 }`}
               >
                 <Phone className="w-4 h-4" />
-                <span>Enquire Now</span>
+                <span>Speak with an Expert</span>
               </a>
               <Link
                 to="/contact"
                 className="flex items-center space-x-2 btn-primary text-sm"
               >
                 <Calendar className="w-4 h-4" />
-                <span>Request Consultation</span>
+                <span>Schedule Your Consultation</span>
               </Link>
             </div>
 
@@ -153,7 +153,7 @@ const Navigation = () => {
                 className="flex items-center justify-center space-x-2 w-full py-3 rounded-xl border border-[#0B1E3C]/12 text-[#0B1E3C] font-medium"
               >
                 <Phone className="w-5 h-5" />
-                <span>Enquire Now</span>
+                <span>Speak with an Expert</span>
               </a>
               <Link
                 to="/contact"
@@ -161,7 +161,7 @@ const Navigation = () => {
                 className="flex items-center justify-center space-x-2 w-full btn-primary"
               >
                 <Calendar className="w-5 h-5" />
-                <span>Request Consultation</span>
+                <span>Schedule Your Consultation</span>
               </Link>
             </div>
           </div>

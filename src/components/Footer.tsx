@@ -13,10 +13,10 @@ const Footer = () => {
   ];
 
   const companyLinks = [
-    { name: 'About Us', href: '/about' },
+    { name: 'About the Firm', href: '/about' },
     { name: 'Why Choose Us', href: '/why-choose-us' },
-    { name: 'Industries', href: '/industries' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Industry Expertise', href: '/industries' },
+    { name: 'Get in Touch', href: '/contact' },
   ];
 
   const legalLinks = [
@@ -73,7 +73,7 @@ const Footer = () => {
           {/* Services Column */}
           <div className="lg:col-span-2 lg:col-start-6">
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider">
-              Services
+              Advisory Services
             </h4>
             <ul className="mt-4 space-y-3">
               {serviceLinks.map((link) => (
@@ -92,7 +92,7 @@ const Footer = () => {
           {/* Company Column */}
           <div className="lg:col-span-2">
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider">
-              Company
+              About the Firm
             </h4>
             <ul className="mt-4 space-y-3">
               {companyLinks.map((link) => (

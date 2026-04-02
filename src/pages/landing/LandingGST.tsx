@@ -46,7 +46,7 @@ const LandingGST = () => {
             </Link>
             <a href="tel:+919781064214" className="flex items-center space-x-2 bg-[#2F6BFF] text-white px-4 py-2 rounded-lg">
               <Phone className="w-4 h-4" />
-              <span>Call Now</span>
+              <span>Direct Inquiry</span>
             </a>
           </div>
         </header>
@@ -82,8 +82,8 @@ const LandingGST = () => {
               </div>
 
               <div className="bg-white rounded-3xl p-6 lg:p-8 card-shadow">
-                <h2 className="text-2xl font-bold text-[#0B1E3C] mb-2">Get GST Quote</h2>
-                <p className="text-[#5A6A7A] mb-6">Professional consultation in 15 minutes</p>
+                <h2 className="text-2xl font-bold text-[#0B1E3C] mb-2">Professional GST Fee Structure</h2>
+                <p className="text-[#5A6A7A] mb-6">Initiate technical inquiry</p>
                 {submitted ? (
                   <div className="text-center py-8">
                     <Check className="w-16 h-16 text-green-500 mx-auto mb-4" />
@@ -129,7 +129,7 @@ const LandingGST = () => {
               </a>
               <a href="https://wa.me/919781064214" className="flex items-center space-x-2 px-8 py-4 bg-white/10 text-white rounded-xl border border-white/20">
                 <MessageSquare className="w-5 h-5" />
-                <span>WhatsApp</span>
+                <span>Consult via WhatsApp</span>
               </a>
             </div>
           </div>
@@ -144,7 +144,7 @@ const LandingGST = () => {
         <div className="fixed bottom-0 left-0 right-0 bg-white border-t p-4 lg:hidden">
           <a href="tel:+919781064214" className="flex items-center justify-center space-x-2 w-full btn-primary">
             <Phone className="w-5 h-5" />
-            <span>Call Now</span>
+            <span>Consult a Specialist</span>
           </a>
         </div>
       </div>

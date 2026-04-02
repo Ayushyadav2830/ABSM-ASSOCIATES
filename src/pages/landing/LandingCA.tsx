@@ -142,7 +142,7 @@ const LandingCA = () => {
               {/* Lead Form */}
               <div className="bg-white rounded-3xl p-6 lg:p-8 card-shadow">
                 <h2 className="text-2xl font-bold text-[#0B1E3C] font-['Sora'] mb-2">
-                  Schedule Consultation
+                  Schedule Your Consultation
                 </h2>
                 <p className="text-[#5A6A7A] mb-6">Receive professional advisory</p>
 

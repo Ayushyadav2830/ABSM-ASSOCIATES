@@ -101,7 +101,7 @@ const Contact = () => {
         <title>Contact Us | ABSM & ASSOCIATES - Chartered Accountant Firm</title>
         <meta
           name="description"
-          content="Contact ABSM & ASSOCIATES for CA services in Chandigarh. Request Consultation for GST, Income Tax, Audit, and Company Registration."
+          content="Contact ABSM & ASSOCIATES for CA services in Chandigarh. Schedule Your Consultation for GST, Income Tax, Audit, and Company Registration."
         />
         <link rel="canonical" href="https://absmassociates.com/contact" />
       </Helmet>

@@ -74,9 +74,9 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           {/* Contact Info */}
           <div>
-            <span className="eyebrow block mb-4">CONTACT US</span>
+            <span className="eyebrow block mb-4">GET IN TOUCH</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
-              Connect With Our Experts
+              Get in Touch
             </h2>
             <p className="text-lg text-[#5A6A7A] mb-8">
               For formal inquiries, please contact us via email. For immediate assistance, our specialists are available via phone and WhatsApp.

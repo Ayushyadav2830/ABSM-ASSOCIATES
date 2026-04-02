@@ -198,7 +198,7 @@ const Services = () => {
                 to="/contact"
                 className="btn-primary"
               >
-                Request Consultation
+                Schedule Your Consultation
               </Link>
               <a
                 href="https://wa.me/919781064214"

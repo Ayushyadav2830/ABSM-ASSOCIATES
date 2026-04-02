@@ -54,7 +54,7 @@ const LandingCompany = () => {
             </Link>
             <a href="tel:+919781064214" className="flex items-center space-x-2 bg-[#2F6BFF] text-white px-4 py-2 rounded-lg">
               <Phone className="w-4 h-4" />
-              <span>Call Now</span>
+              <span>Direct Inquiry</span>
             </a>
           </div>
         </header>
@@ -67,7 +67,7 @@ const LandingCompany = () => {
                   Company Registration Chandigarh
                 </span>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-['Sora'] mb-4">
-                  Start Your Business Today
+                  Establish Your Corporate Entity
                 </h1>
                 <p className="text-lg text-white/70 mb-6">
                   Complete company registration services in Chandigarh. From name approval to 
@@ -90,8 +90,8 @@ const LandingCompany = () => {
               </div>
 
               <div className="bg-white rounded-3xl p-6 lg:p-8 card-shadow">
-                <h2 className="text-2xl font-bold text-[#0B1E3C] mb-2">Register Your Company</h2>
-                <p className="text-[#5A6A7A] mb-6">Get started in minutes</p>
+                <h2 className="text-2xl font-bold text-[#0B1E3C] mb-2">Corporate Incorporation</h2>
+                <p className="text-[#5A6A7A] mb-6">Initiate formal process</p>
                 {submitted ? (
                   <div className="text-center py-8">
                     <Check className="w-16 h-16 text-green-500 mx-auto mb-4" />
@@ -108,7 +108,7 @@ const LandingCompany = () => {
                     </select>
                     <button type="submit" className="w-full btn-primary py-4 flex items-center justify-center space-x-2">
                       <Building className="w-5 h-5" />
-                      <span>Start Registration</span>
+                      <span>Initiate Incorporation</span>
                     </button>
                   </form>
                 )}
@@ -137,11 +137,11 @@ const LandingCompany = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="tel:+919781064214" className="flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl">
                 <Phone className="w-5 h-5" />
-                <span>Call: +91 97810 64214</span>
+                <span>Phone: +91 97810 64214</span>
               </a>
               <a href="https://wa.me/919781064214" className="flex items-center space-x-2 px-8 py-4 bg-white/10 text-white rounded-xl border border-white/20">
                 <MessageSquare className="w-5 h-5" />
-                <span>WhatsApp</span>
+                <span>Consult via WhatsApp</span>
               </a>
             </div>
           </div>
@@ -156,7 +156,7 @@ const LandingCompany = () => {
         <div className="fixed bottom-0 left-0 right-0 bg-white border-t p-4 lg:hidden">
           <a href="tel:+919781064214" className="flex items-center justify-center space-x-2 w-full btn-primary">
             <Phone className="w-5 h-5" />
-            <span>Call Now</span>
+            <span>Direct Inquiry</span>
           </a>
         </div>
       </div>
