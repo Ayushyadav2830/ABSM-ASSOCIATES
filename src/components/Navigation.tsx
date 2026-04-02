@@ -43,8 +43,8 @@ const Navigation = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-4 group">
-              <div className="w-12 h-12 lg:w-14 lg:h-14 relative overflow-hidden flex-shrink-0 border border-[#0B1E3C]/5 rounded-lg">
+            <Link to="/" className="flex items-center space-x-2 sm:space-x-4 flex-shrink-0">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 relative overflow-hidden flex-shrink-0 border border-[#0B1E3C]/5 rounded-lg">
                 <img 
                   src="/images/ca-logo.jpg" 
                   alt="CA Logo" 
@@ -52,22 +52,22 @@ const Navigation = () => {
                 />
               </div>
               <div className="flex flex-col justify-center">
-                <span className="text-xl lg:text-2xl font-bold font-['Sora'] tracking-[-0.03em] leading-none mb-1 text-[#0B1E3C]">
+                <span className="text-lg lg:text-xl xl:text-2xl font-bold font-['Sora'] tracking-[-0.03em] leading-none mb-1 text-[#0B1E3C]">
                   ABSM & <span className="text-[#2F6BFF]">ASSOCIATES</span>
                 </span>
-                <span className="text-[10px] lg:text-[11px] font-bold tracking-[0.2em] uppercase text-[#5A6A7A] opacity-80 leading-none">
+                <span className="text-[9px] lg:text-[10px] xl:text-[11px] font-bold tracking-[0.2em] uppercase text-[#5A6A7A] opacity-80 leading-none">
                   Chartered Accountants
                 </span>
               </div>
             </Link>
 
-            {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center lg:space-x-4 xl:space-x-6">
+            {/* Main Navigation - Visible from XL (1280px) */}
+            <div className="hidden xl:flex items-center space-x-6">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   to={link.href}
-                  className={`lg:text-[12px] xl:text-[13px] font-bold tracking-tight transition-colors hover:text-[#2F6BFF] ${
+                  className={`text-[13px] font-bold tracking-tight transition-colors hover:text-[#2F6BFF] ${
                     isActive(link.href)
                       ? 'text-[#2F6BFF]'
                       : 'text-[#0B1E3C]'
@@ -78,13 +78,13 @@ const Navigation = () => {
               ))}
             </div>
 
-            {/* Desktop CTA Buttons */}
-            <div className="hidden lg:flex items-center lg:space-x-1.5 xl:space-x-2">
+            {/* Actions Block - Visible from LG (1024px) */}
+            <div className="hidden lg:flex items-center space-x-2 ml-4">
               <a
                 href="https://wa.me/919781064214"
                 target="_blank"
                 rel="noreferrer"
-                className={`flex items-center space-x-1.5 lg:px-2 xl:px-3 py-2 rounded-lg lg:text-[12px] xl:text-[13px] font-bold transition-all ${
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-[12px] xl:text-[13px] font-bold transition-all ${
                   isScrolled
                     ? 'text-[#0B1E3C] hover:bg-[#F6F7F9]'
                     : 'text-[#0B1E3C] hover:bg-white/50'
@@ -95,17 +95,17 @@ const Navigation = () => {
               </a>
               <Link
                 to="/contact"
-                className="flex items-center space-x-1.5 lg:px-3 xl:px-4 py-2 bg-[#2F6BFF] text-white rounded-lg lg:text-[12px] xl:text-[13px] font-bold hover:bg-[#2558d9] transition-all"
+                className="flex items-center space-x-1.5 px-3 xl:px-4 py-2 bg-[#2F6BFF] text-white rounded-lg text-[12px] xl:text-[13px] font-bold hover:bg-[#2558d9] transition-all"
               >
                 <Calendar className="w-3.5 h-3.5" />
                 <span className="whitespace-nowrap">Schedule Your Consultation</span>
               </Link>
             </div>
 
-            {/* Mobile Menu Button */}
+            {/* Mobile/Tablet Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-2 rounded-lg hover:bg-[#F6F7F9] transition-colors"
+              className="xl:hidden p-2 rounded-lg hover:bg-[#F6F7F9] transition-colors"
             >
               {isMobileMenuOpen ? (
                 <X className="w-6 h-6 text-[#0B1E3C]" />
@@ -119,7 +119,7 @@ const Navigation = () => {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed inset-0 z-40 lg:hidden ${
+        className={`fixed inset-0 z-40 xl:hidden ${
           isMobileMenuOpen ? 'block' : 'hidden'
         }`}
       >
