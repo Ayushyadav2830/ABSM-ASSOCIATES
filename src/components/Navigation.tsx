@@ -62,45 +62,43 @@ const Navigation = () => {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-8">
+            <div className="hidden lg:flex items-center lg:space-x-4 xl:space-x-6">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   to={link.href}
-                  className={`text-sm font-medium transition-colors hover:text-[#2F6BFF] ${
+                  className={`lg:text-[12px] xl:text-[13px] font-bold tracking-tight transition-colors hover:text-[#2F6BFF] ${
                     isActive(link.href)
                       ? 'text-[#2F6BFF]'
-                      : isScrolled
-                      ? 'text-[#0B1E3C]'
                       : 'text-[#0B1E3C]'
                   }`}
                 >
-                  {link.name}
+                  <span className="whitespace-nowrap">{link.name}</span>
                 </Link>
               ))}
             </div>
 
             {/* Desktop CTA Buttons */}
-            <div className="hidden lg:flex items-center space-x-3">
+            <div className="hidden lg:flex items-center lg:space-x-1.5 xl:space-x-2">
               <a
                 href="https://wa.me/919781064214"
                 target="_blank"
                 rel="noreferrer"
-                className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                className={`flex items-center space-x-1.5 lg:px-2 xl:px-3 py-2 rounded-lg lg:text-[12px] xl:text-[13px] font-bold transition-all ${
                   isScrolled
                     ? 'text-[#0B1E3C] hover:bg-[#F6F7F9]'
                     : 'text-[#0B1E3C] hover:bg-white/50'
                 }`}
               >
-                <Phone className="w-4 h-4" />
-                <span>Speak with an Expert</span>
+                <Phone className="w-3.5 h-3.5" />
+                <span className="whitespace-nowrap">Speak with an Expert</span>
               </a>
               <Link
                 to="/contact"
-                className="flex items-center space-x-2 btn-primary text-sm"
+                className="flex items-center space-x-1.5 lg:px-3 xl:px-4 py-2 bg-[#2F6BFF] text-white rounded-lg lg:text-[12px] xl:text-[13px] font-bold hover:bg-[#2558d9] transition-all"
               >
-                <Calendar className="w-4 h-4" />
-                <span>Schedule Your Consultation</span>
+                <Calendar className="w-3.5 h-3.5" />
+                <span className="whitespace-nowrap">Schedule Your Consultation</span>
               </Link>
             </div>
 

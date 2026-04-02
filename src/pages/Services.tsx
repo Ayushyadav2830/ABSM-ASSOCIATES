@@ -140,7 +140,7 @@ const Services = () => {
         <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
-              <span className="eyebrow block mb-4">OUR SERVICES</span>
+              <span className="eyebrow block mb-4">ADVISORY SERVICES</span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
                 Comprehensive financial solutions
               </h1>
