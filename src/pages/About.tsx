@@ -58,7 +58,7 @@ const About = () => {
             <div className="max-w-3xl">
               <span className="eyebrow block mb-4">ABOUT US</span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
-                Expertise aligned with your growth
+                Professional Expertise. Strategic Growth.
               </h1>
               <p className="text-xl text-[#5A6A7A] leading-relaxed">
                 ABSM & ASSOCIATES is a premier Chartered Accountant Firm in Chandigarh 
@@ -75,7 +75,7 @@ const About = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div>
                 <h2 className="text-3xl sm:text-4xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
-                  Our Story
+                  Heritage & Mission
                 </h2>
                 <div className="space-y-4 text-[#5A6A7A] leading-relaxed">
                   <p>
@@ -91,7 +91,7 @@ const About = () => {
                   <p>
                     Today, we combine deep, technical domain knowledge with highly personalized consulting. Whether you are 
                     a startup seeking GST clarity or a corporation requiring detailed audits, we ensure you are 
-                    always in safe hands.
+                    always supported by technical excellence.
                   </p>
                 </div>
               </div>
@@ -125,7 +125,7 @@ const About = () => {
                 What drives us
               </h2>
               <p className="text-lg text-[#5A6A7A]">
-                Our core values guide every decision we make and every service we deliver.
+                Our foundational principles dictate the precision and integrity inherent in every professional engagement.
               </p>
             </div>
 
@@ -154,7 +154,7 @@ const About = () => {
             <div className="text-center max-w-2xl mx-auto mb-8 lg:mb-12">
               <span className="eyebrow block mb-4">OUR JOURNEY</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-                Milestones
+                Strategic Milestones
               </h2>
             </div>
 
@@ -187,10 +187,10 @@ const About = () => {
         <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-white font-['Sora'] mb-6">
-              Ready to work with us?
+              Initiate a Strategic Partnership
             </h2>
             <p className="text-lg text-white/70 mb-8">
-              Let's discuss how we can help you achieve your financial goals.
+              Engage our consultants to discuss how we can support your financial and regulatory objectives.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link

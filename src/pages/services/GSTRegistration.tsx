@@ -95,14 +95,14 @@ const GSTRegistration = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact" className="flex items-center justify-center space-x-2 btn-primary">
                   <Phone className="w-5 h-5" />
-                  <span>Get Started</span>
+                  <span>Initiate Consultation</span>
                 </Link>
                 <a
                   href="tel:+919781064214"
                   className="flex items-center justify-center space-x-2 btn-secondary"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>Call Now</span>
+                  <span>Speak with a Specialist</span>
                 </a>
               </div>
             </div>
@@ -179,9 +179,9 @@ const GSTRegistration = () => {
         <section className="py-12 lg:py-16 bg-[#F6F7F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-12">
-              <span className="eyebrow block mb-4">OUR PROCESS</span>
+              <span className="eyebrow block mb-4">ENGAGEMENT METHODOLOGY</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-                How GST Registration Works
+                GST Registration Framework
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -204,7 +204,7 @@ const GSTRegistration = () => {
         <section className="py-12 lg:py-16 bg-white">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#0B1E3C] font-['Sora'] mb-8 text-center">
-              Frequently Asked Questions
+              Common Inquiries
             </h2>
             <div className="space-y-4">
               {faqs.map((faq, index) => (
@@ -221,7 +221,7 @@ const GSTRegistration = () => {
         <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-white font-['Sora'] mb-6">
-              Get your GST registration today
+              Ensure Your GST Compliance Today
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Contact us for a professional consultation and quote.
@@ -232,7 +232,7 @@ const GSTRegistration = () => {
                 className="flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl font-medium hover:bg-[#2558d9] transition-colors"
               >
                 <Calendar className="w-5 h-5" />
-                <span>Book Consultation</span>
+                <span>Request Consultation</span>
               </Link>
               <a
                 href="https://wa.me/919781064214"
@@ -241,7 +241,7 @@ const GSTRegistration = () => {
                 className="flex items-center space-x-2 px-8 py-4 bg-white/10 text-white rounded-xl font-medium border border-white/20 hover:bg-white/20 transition-colors"
               >
                 <MessageSquare className="w-5 h-5" />
-                <span>WhatsApp Us</span>
+                <span>Consult via WhatsApp</span>
               </a>
             </div>
           </div>

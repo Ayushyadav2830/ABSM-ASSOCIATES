@@ -93,14 +93,14 @@ const Navigation = () => {
                 }`}
               >
                 <Phone className="w-4 h-4" />
-                <span>Let's Talk</span>
+                <span>Enquire Now</span>
               </a>
               <Link
                 to="/contact"
                 className="flex items-center space-x-2 btn-primary text-sm"
               >
                 <Calendar className="w-4 h-4" />
-                <span>Book Consultation</span>
+                <span>Request Consultation</span>
               </Link>
             </div>
 
@@ -153,7 +153,7 @@ const Navigation = () => {
                 className="flex items-center justify-center space-x-2 w-full py-3 rounded-xl border border-[#0B1E3C]/12 text-[#0B1E3C] font-medium"
               >
                 <Phone className="w-5 h-5" />
-                <span>Let's Talk</span>
+                <span>Enquire Now</span>
               </a>
               <Link
                 to="/contact"
@@ -161,7 +161,7 @@ const Navigation = () => {
                 className="flex items-center justify-center space-x-2 w-full btn-primary"
               >
                 <Calendar className="w-5 h-5" />
-                <span>Book Consultation</span>
+                <span>Request Consultation</span>
               </Link>
             </div>
           </div>

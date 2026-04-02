@@ -4,10 +4,10 @@ import { Check, ArrowRight } from 'lucide-react';
 const WhyChooseUs = () => {
 
   const differentiators = [
-    'Always in Safe Hands',
-    'Always Adding Value',
-    'Strong Professional Network',
-    'Quality Assured Services',
+    'Confidential Data Security',
+    'Strategic Value Creation',
+    'Expansive Professional Network',
+    'Technical Quality Assurance',
   ];
 
   // Removed animations for static website
@@ -43,8 +43,8 @@ const WhyChooseUs = () => {
             </span>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
-              Experience the difference.<br />
-              Grow with confidence.
+              The Strategic Advantage.<br />
+              Growth with Precision.
             </h2>
 
             <p className="text-lg text-[#5A6A7A] leading-relaxed mb-8">
@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
               to="/about"
               className="inline-flex items-center space-x-2 btn-navy"
             >
-              <span>Meet the team</span>
+              <span>Professional Profile</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

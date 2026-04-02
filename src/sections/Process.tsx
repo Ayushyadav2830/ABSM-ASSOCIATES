@@ -13,16 +13,16 @@ const Process = () => {
     {
       number: '02',
       icon: FileCheck,
-      title: 'Execution & Review',
-      description: 'We prepare filings, reconcile records, and share drafts for approval.',
-      tags: ['Drafts', 'Reconciliation', 'Sign-off'],
+      title: 'Strategic Execution',
+      description: 'We prepare filings, reconcile records, and share drafts for professional sign-off.',
+      tags: ['Drafts', 'Reconciliation', 'Technical Review'],
     },
     {
       number: '03',
       icon: HeadphonesIcon,
-      title: 'Filing & Support',
-      description: 'We file on time and provide ongoing support for notices or queries.',
-      tags: ['Timely filing', 'Support', 'Documentation'],
+      title: 'Filing & Advisory',
+      description: 'We ensure timely statutory filings and provide ongoing support for any regulatory inquiries.',
+      tags: ['Compliance', 'Post-filing Support', 'Documentation'],
     },
   ];
 
@@ -33,12 +33,12 @@ const Process = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-8 lg:mb-12">
-          <span className="eyebrow block mb-4">OUR PROCESS</span>
+          <span className="eyebrow block mb-4">SERVICE DELIVERY MODEL</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-            How we work
+            Engagement Framework
           </h2>
           <p className="text-lg text-[#5A6A7A]">
-            A simple, documented process designed to save time and reduce back-and-forth.
+            A structured methodology engineered to ensure technical precision and operational efficiency.
           </p>
         </div>
 

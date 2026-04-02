@@ -60,11 +60,11 @@ const ExitIntentPopup = () => {
           </div>
 
           <h3 className="text-2xl font-bold text-[#0B1E3C] font-['Sora'] mb-2">
-            Before You Go...
+            Professional Guidance
           </h3>
 
           <p className="text-[#5A6A7A] mb-6">
-            Get a <span className="font-semibold text-[#0B1E3C]">15-minute professional consultation</span> with our CA experts. Discuss your tax, GST, or compliance needs.
+            Schedule a <span className="font-semibold text-[#0B1E3C]">complimentary consultation</span> with our Chartered Accountants to discuss your regulatory and compliance requirements.
           </p>
 
           <div className="space-y-3">
@@ -78,17 +78,17 @@ const ExitIntentPopup = () => {
             </Link>
 
             <a
-              href="tel:+919876543210"
+              href="tel:+919781064214"
               onClick={closePopup}
               className="flex items-center justify-center space-x-2 w-full py-3 rounded-xl border border-[#0B1E3C]/12 text-[#0B1E3C] font-medium hover:bg-[#F6F7F9] transition-colors"
             >
               <Phone className="w-5 h-5" />
-              <span>Call Now: +91 98765 43210</span>
+              <span>Direct Inquiry: +91 97810 64214</span>
             </a>
           </div>
 
           <p className="mt-4 text-xs text-[#5A6A7A]">
-            No obligation. Confidential & secure.
+            Confidentiality Assured | No-Obligation Engagement
           </p>
         </div>
       </div>

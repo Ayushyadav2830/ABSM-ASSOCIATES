@@ -11,11 +11,10 @@ const FAQSection = () => {
       answer: 'Yes. We serve clients across India via secure document sharing and video calls. Our digital-first approach ensures seamless service delivery regardless of location.',
     },
     {
-      question: 'What documents are needed for ITR filing?',
-      answer: 'Typically: PAN, Aadhaar, Form 16, bank statements, and investment proofs. We\'ll share a comprehensive checklist after booking your consultation.',
+      answer: 'Typically: PAN, Aadhaar, Form 16, bank statements, and investment proofs. We\'ll share a comprehensive checklist after initiating your consultation.',
     },
     {
-      question: 'How do you price your services?',
+      question: 'Professional Fee Structure',
       answer: 'Fixed fees for standard engagements; custom quotes for audits and complex filings. No hidden charges. We provide transparent pricing upfront after understanding your requirements.',
     },
     {
@@ -23,11 +22,11 @@ const FAQSection = () => {
       answer: 'Yes. We analyze the notice, prepare a response, and represent you before authorities when needed. Our team has extensive experience in handling various types of GST notices and disputes.',
     },
     {
-      question: 'Do you offer monthly accounting packages?',
+      question: 'Retainer Services',
       answer: 'Yes. We offer monthly bookkeeping + compliance retainers for businesses of all sizes. These packages include regular reconciliations, timely filings, and dedicated support.',
     },
     {
-      question: 'How soon can we start?',
+      question: 'Engagement Timelines',
       answer: 'After an initial discovery call, we typically begin within 2–3 business days. For urgent requirements, we can expedite the process.',
     },
   ];
@@ -43,14 +42,14 @@ const FAQSection = () => {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-8 lg:mb-12">
-          <span className="eyebrow block mb-4">FAQ</span>
+          <span className="eyebrow block mb-4">COMMON INQUIRIES</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-            Common questions
+            Professional Inquiries
           </h2>
           <p className="text-lg text-[#5A6A7A]">
-            Quick answers. If you need more detail,{' '}
+            Frequently requested information. For detailed technical advice, please{' '}
             <Link to="/contact" className="text-[#2F6BFF] hover:underline">
-              book a call
+              schedule a consultation
             </Link>
             .
           </p>

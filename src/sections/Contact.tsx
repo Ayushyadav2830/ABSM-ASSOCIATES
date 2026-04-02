@@ -24,8 +24,8 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 97810 64214',
+      href: 'tel:+919781064214',
     },
     {
       icon: MapPin,
@@ -76,10 +76,10 @@ const ContactSection = () => {
           <div>
             <span className="eyebrow block mb-4">CONTACT US</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
-              Get in touch
+              Connect With Our Experts
             </h2>
             <p className="text-lg text-[#5A6A7A] mb-8">
-              Prefer email? Write to us. For urgent queries, call or WhatsApp.
+              For formal inquiries, please contact us via email. For immediate assistance, our specialists are available via phone and WhatsApp.
             </p>
 
             <div className="space-y-6">
@@ -113,10 +113,10 @@ const ContactSection = () => {
                   <Send className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#0B1E3C] font-['Sora'] mb-2">
-                  Message Sent!
+                  Submission Received
                 </h3>
                 <p className="text-[#5A6A7A]">
-                  We'll get back to you within 24 hours.
+                  Our team will review your inquiry and respond within 24 business hours.
                 </p>
               </div>
             ) : (
@@ -132,7 +132,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-xl border border-[rgba(11,30,60,0.12)] focus:border-[#2F6BFF] focus:ring-2 focus:ring-[#2F6BFF]/20 outline-none transition-all"
-                    placeholder="Your name"
+                    placeholder="Contact Name"
                   />
                 </div>
 
@@ -162,7 +162,7 @@ const ContactSection = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-xl border border-[rgba(11,30,60,0.12)] focus:border-[#2F6BFF] focus:ring-2 focus:ring-[#2F6BFF]/20 outline-none transition-all"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 XXXXX XXXXX"
                     />
                   </div>
                 </div>
@@ -198,7 +198,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl border border-[rgba(11,30,60,0.12)] focus:border-[#2F6BFF] focus:ring-2 focus:ring-[#2F6BFF]/20 outline-none transition-all resize-none"
-                    placeholder="Tell us about your requirements..."
+                    placeholder="Please provide brief details regarding your professional requirements..."
                   />
                 </div>
 
@@ -215,7 +215,7 @@ const ContactSection = () => {
                   ) : (
                     <>
                       <Send className="w-5 h-5" />
-                      <span>Send Message</span>
+                      <span>Submit Inquiry</span>
                     </>
                   )}
                 </button>
