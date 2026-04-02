@@ -66,7 +66,7 @@ const Hero = () => {
               PREMIUM ADVISORY & COMPLIANCE
             </span>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-[#0B1E3C] font-['Sora'] leading-[1.1] tracking-[-0.03em] mb-8">
+            <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-[#0B1E3C] font-['Sora'] leading-[1.1] tracking-[-0.03em] mb-8">
               Strategic Financial<br />
               <span className="text-[#2F6BFF]">Partnership.</span>
             </h1>

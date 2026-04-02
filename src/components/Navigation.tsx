@@ -51,12 +51,12 @@ const Navigation = () => {
                   className="w-full h-full object-contain scale-110"
                 />
               </div>
-              <div className="flex flex-col justify-center">
-                <div className="text-xl lg:text-2xl font-bold font-['Sora'] tracking-tight leading-none text-[#0B1E3C] flex items-center">
+              <div className="flex flex-col justify-center overflow-hidden">
+                <div className="text-lg sm:text-xl lg:text-2xl font-bold font-['Sora'] tracking-tight leading-none text-[#0B1E3C] flex items-center whitespace-nowrap">
                   <span>ABSM &</span>
                   <span className="text-[#2F6BFF] ml-1.5 uppercase">ASSOCIATES</span>
                 </div>
-                <div className="text-[9px] lg:text-[10px] font-bold tracking-[0.25em] uppercase text-[#5A6A7A] mt-1 line-clamp-1">
+                <div className="text-[8px] sm:text-[9px] lg:text-[10px] font-bold tracking-[0.25em] uppercase text-[#5A6A7A] mt-1 line-clamp-1 truncate">
                   Chartered Accountants
                 </div>
               </div>
