@@ -122,7 +122,7 @@ const About = () => {
             <div className="text-center max-w-2xl mx-auto mb-8 lg:mb-12">
               <span className="eyebrow block mb-4">OUR VALUES</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-                What drives us
+                Core Philosophy
               </h2>
               <p className="text-lg text-[#5A6A7A]">
                 Our foundational principles dictate the precision and integrity inherent in every professional engagement.

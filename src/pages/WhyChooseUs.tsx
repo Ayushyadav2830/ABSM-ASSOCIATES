@@ -84,11 +84,11 @@ const WhyChooseUsPage = () => {
             <div className="max-w-3xl">
               <span className="eyebrow block mb-4">WHY CHOOSE US</span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B1E3C] font-['Sora'] mb-6">
-                The ABSM & ASSOCIATES difference
+                The ABSM & ASSOCIATES Strategic Advantage
               </h1>
               <p className="text-xl text-[#5A6A7A] leading-relaxed">
-                We combine technical expertise with personalized service to deliver 
-                exceptional value to every client.
+                We integrate technical precision with bespoke advisory services to provide 
+                exceptional strategic value to our clients.
               </p>
             </div>
           </div>
@@ -122,7 +122,7 @@ const WhyChooseUsPage = () => {
             <div className="text-center mb-12">
               <span className="eyebrow block mb-4">COMPARISON</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#0B1E3C] font-['Sora'] mb-4">
-                Why we're different
+                Competitive Distinction
               </h2>
             </div>
 
@@ -130,7 +130,7 @@ const WhyChooseUsPage = () => {
               <div className="grid grid-cols-3 gap-4 p-6 bg-[#0B1E3C] text-white font-semibold">
                 <div>Feature</div>
                 <div className="text-center">ABSM & ASSOCIATES</div>
-                <div className="text-center text-white/60">Others</div>
+                <div className="text-center text-white/60">Conventional Firms</div>
               </div>
               {comparisonPoints.map((point, index) => (
                 <div
@@ -178,13 +178,13 @@ const WhyChooseUsPage = () => {
               Experience the difference
             </h2>
             <p className="text-lg text-white/70 mb-8">
-              Join 500+ satisfied clients who trust us with their financial compliance.
+              Align with over 500 prestigious clients who rely on our expertise for financial and regulatory compliance.
             </p>
             <Link
               to="/contact"
               className="inline-flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl font-medium hover:bg-[#2558d9] transition-colors"
             >
-              <span>Get Started Today</span>
+              <span>Initiate Engagement</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

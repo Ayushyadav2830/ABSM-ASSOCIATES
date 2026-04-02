@@ -45,12 +45,12 @@ const CompanyRegistration = () => {
                 Company Registration
               </h1>
               <p className="text-xl text-[#5A6A7A] leading-relaxed mb-8">
-                Start your business journey with our comprehensive company registration services. 
-                We handle all paperwork and compliance for a smooth incorporation process.
+                Establish your legal entity with our comprehensive incorporation services. 
+                Our experts manage all statutory documentation to ensure a seamless formation process.
               </p>
               <Link to="/contact" className="inline-flex items-center space-x-2 btn-primary">
                 <Calendar className="w-5 h-5" />
-                <span>Start Your Company</span>
+              <span>Initiate Incorporation</span>
               </Link>
             </div>
           </div>
@@ -89,11 +89,11 @@ const CompanyRegistration = () => {
 
         <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold text-white font-['Sora'] mb-6">Ready to incorporate?</h2>
+            <h2 className="text-3xl font-bold text-white font-['Sora'] mb-6">Corporate Entity Formation</h2>
             <p className="text-white/70 mb-8">Let us help you start your business the right way.</p>
             <Link to="/contact" className="inline-flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl font-medium hover:bg-[#2558d9]">
               <Building className="w-5 h-5" />
-              <span>Get Started</span>
+              <span>Initiate Process</span>
             </Link>
           </div>
         </section>

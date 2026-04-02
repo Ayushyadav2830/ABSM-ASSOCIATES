@@ -94,7 +94,7 @@ const AuditAssurance = () => {
                       className="inline-flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl font-medium hover:bg-[#2558d9] transition-colors"
                     >
                       <Calendar className="w-5 h-5" />
-                      <span>Book Consultation</span>
+                      <span>Request Consultation</span>
                     </Link>
                   </div>
                 </div>

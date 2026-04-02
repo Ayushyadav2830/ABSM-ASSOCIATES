@@ -40,10 +40,10 @@ const TDSReturns = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact" className="flex items-center justify-center space-x-2 btn-primary">
                   <Calendar className="w-5 h-5" />
-                  <span>Book Consultation</span>
+                  <span>Request Consultation</span>
                 </Link>
                 <a href="tel:+919781064214" className="flex items-center justify-center space-x-2 btn-secondary">
-                  <span>Call Now</span>
+                  <span>Consult an Expert</span>
                 </a>
               </div>
             </div>
@@ -81,11 +81,11 @@ const TDSReturns = () => {
 
         <section className="py-12 lg:py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold text-white font-['Sora'] mb-6">Need assistance with TDS?</h2>
+            <h2 className="text-3xl font-bold text-white font-['Sora'] mb-6">Professional TDS Advisory</h2>
             <p className="text-white/70 mb-8">Speak to our experts to streamline your payroll and vendor TDS compliance.</p>
             <Link to="/contact" className="inline-flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl font-medium hover:bg-[#2558d9]">
               <Calculator className="w-5 h-5" />
-              <span>Get Started</span>
+              <span>Initiate Compliance Support</span>
             </Link>
           </div>
         </section>

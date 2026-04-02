@@ -56,8 +56,7 @@ const LandingCA = () => {
       a: 'We offer GST registration & filing, income tax planning, audit & assurance, company registration, and accounting services.',
     },
     {
-      q: 'How can I Request Consultation?',
-      a: 'You can Schedule a professional consultation by filling the form above or calling us directly at +91 98765 43210.',
+      a: 'You can request a consultation by filling the form above or contacting our specialists directly at +91 97810 64214.',
     },
     {
       q: 'Do you serve clients outside Chandigarh?',
@@ -93,7 +92,7 @@ const LandingCA = () => {
             <a href="tel:+919781064214" className="flex items-center space-x-2 bg-[#2F6BFF] text-white px-4 py-2 rounded-lg font-medium">
               <Phone className="w-4 h-4" />
               <span className="hidden sm:inline">+91 97810 64214</span>
-              <span className="sm:hidden">Call Now</span>
+              <span className="sm:hidden">Consult an Expert</span>
             </a>
           </div>
         </header>
@@ -145,7 +144,7 @@ const LandingCA = () => {
                 <h2 className="text-2xl font-bold text-[#0B1E3C] font-['Sora'] mb-2">
                   Schedule Consultation
                 </h2>
-                <p className="text-[#5A6A7A] mb-6">Get expert advice in 15 minutes</p>
+                <p className="text-[#5A6A7A] mb-6">Receive professional advisory</p>
 
                 {submitted ? (
                   <div className="text-center py-8">
@@ -194,7 +193,7 @@ const LandingCA = () => {
                     </div>
                     <button type="submit" className="w-full flex items-center justify-center space-x-2 btn-primary py-4">
                       <Send className="w-5 h-5" />
-                      <span>Schedule Call</span>
+                      <span>Request Inbound Call</span>
                     </button>
                     <p className="text-xs text-center text-[#5A6A7A] uppercase tracking-wider font-semibold">
                       Your data is handled with absolute confidentiality.
@@ -297,9 +296,9 @@ const LandingCA = () => {
         <section className="py-16 bg-[#0B1E3C]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-white font-['Sora'] mb-4">
-              Ready to get started?
+              Initiate Engagement
             </h2>
-            <p className="text-white/70 mb-8">Book your professional consultation today.</p>
+            <p className="text-white/70 mb-8">Initiate your professional consultation today.</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="tel:+919781064214" className="flex items-center space-x-2 px-8 py-4 bg-[#2F6BFF] text-white rounded-xl font-medium">
                 <Phone className="w-5 h-5" />
@@ -307,7 +306,7 @@ const LandingCA = () => {
               </a>
               <a href="https://wa.me/919781064214" className="flex items-center space-x-2 px-8 py-4 bg-white/10 text-white rounded-xl font-medium border border-white/20">
                 <MessageSquare className="w-5 h-5" />
-                <span>WhatsApp Us</span>
+                <span>Consult via WhatsApp</span>
               </a>
             </div>
           </div>
@@ -330,7 +329,7 @@ const LandingCA = () => {
         <div className="fixed bottom-0 left-0 right-0 bg-white border-t p-4 lg:hidden">
           <a href="tel:+919781064214" className="flex items-center justify-center space-x-2 w-full btn-primary">
             <Phone className="w-5 h-5" />
-            <span>Call Now</span>
+            <span>Consult an Expert</span>
           </a>
         </div>
       </div>
