@@ -34,16 +34,22 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-4">
             <Link to="/" className="flex items-center space-x-3 group">
-              <div className="w-10 h-10 relative overflow-hidden flex-shrink-0">
+              <div className="w-12 h-12 lg:w-14 lg:h-14 bg-white/10 rounded-xl flex items-center justify-center p-2">
                 <img 
                   src="/images/ca-logo.jpg" 
                   alt="CA Logo" 
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-xl font-bold font-['Sora'] text-white tracking-tight">
-                ABSM & <span className="text-[#2F6BFF]">ASSOCIATES</span>
-              </span>
+              <div className="flex flex-col justify-center">
+                <div className="text-xl lg:text-2xl font-bold font-['Sora'] tracking-tight leading-none text-white flex items-center">
+                  <span>ABSM &</span>
+                  <span className="text-[#2F6BFF] ml-1.5 uppercase">ASSOCIATES</span>
+                </div>
+                <div className="text-[9px] lg:text-[10px] font-bold tracking-[0.25em] uppercase text-gray-400 mt-1">
+                  Chartered Accountants
+                </div>
+              </div>
             </Link>
             <p className="mt-4 text-gray-400 text-sm leading-relaxed max-w-sm">
               An elite Chartered Accountancy firm committed to technical excellence and strategic value creation. We provide sophisticated advisory, audit, and taxation services for a global clientele.
