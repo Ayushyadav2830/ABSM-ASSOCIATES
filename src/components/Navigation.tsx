@@ -43,8 +43,8 @@ const Navigation = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20 lg:h-24">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-3 group">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-gray-100 rounded-xl flex items-center justify-center p-1.5">
+            <Link to="/" className="flex items-center space-x-3">
+              <div className="logo-container w-12 h-12 lg:w-16 lg:h-16 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-gray-100 rounded-xl flex items-center justify-center p-1.5">
                 <img 
                   src="/images/ca-logo.jpg" 
                   alt="CA Logo" 

@@ -207,3 +207,9 @@ body *:not(.btn-primary):not(.btn-secondary):not(.btn-navy):not(a):not(button):h
   box-shadow: inherit !important;
 }
 
+/* Ensure logo stability */
+.logo-container, .logo-container img {
+  transform: none !important;
+  transition: none !important;
+}
+

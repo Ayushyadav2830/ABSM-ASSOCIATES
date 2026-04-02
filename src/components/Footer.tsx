@@ -33,8 +33,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
           {/* Brand Column */}
           <div className="lg:col-span-4">
-            <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 lg:w-14 lg:h-14 bg-white/10 rounded-xl flex items-center justify-center p-1">
+            <Link to="/" className="flex items-center space-x-3">
+              <div className="logo-container w-12 h-12 lg:w-14 lg:h-14 bg-white/10 rounded-xl flex items-center justify-center p-1">
                 <img 
                   src="/images/ca-logo.jpg" 
                   alt="CA Logo" 
