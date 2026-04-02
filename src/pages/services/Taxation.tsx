@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Calculator, CheckCircle2, ShieldCheck, ArrowRight, Calendar } from 'lucide-react';
+import { Calculator, CheckCircle2, ShieldCheck, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Taxation = () => {
